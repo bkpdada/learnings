@@ -1,0 +1,73 @@
+body {
+  background-color: #3b6978;
+}
+
+h1 {
+  text-align: center;
+  padding: 3% 5% 5%;
+  font-size: 100px;
+  font-family: 'Galada', cursive;
+  font-weight: bold;
+  color: #a3f7bf;
+}
+
+.h1_new {
+  text-align: center;
+  padding: 2% 5% 5%;
+  font-size: 100px;
+  font-family: 'Galada', cursive;
+  font-weight: bold;
+  color: #ff9595;
+}
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #a3f7bf;
+  text-align: center;
+  padding: 0 50px 0 35px;
+}
+
+.dice1 {
+  height: 200px;
+  background: #c70039;
+  position: relative;
+  float: right;
+  margin: 2% 2% 0 0;
+  border-radius: 20px;
+}
+
+.dice2 {
+  height: 200px;
+  background: #c70039;
+  position: relative;
+  float: left;
+  margin: 2% 0 0 0;
+  border-radius: 20px;
+}
+
+
+.row1, .row2, .row3{
+  height: 60px;
+  position: relative;
+  margin: 6% 3% 2% 2%;
+}
+
+.r1c1, .r1c2, .r1c3, .r2c1, .r2c2, .r2c3, .r3c1, .r3c2, .r3c3{
+  height: 30px;
+  background: white;
+  border-radius: 100px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+h3{
+  text-align: center;
+  padding: 6% 5% 2% 0;
+  font-size: 12px;
+  font-family: 'Galada', cursive;
+  color: #a3f7bf;
+}
