@@ -49,8 +49,8 @@ function six(dice_element) {
   dice_element.getElementsByClassName("r3c2")[0].setAttribute("class", "hide");
 }
 
-var score_1 = Math.floor(Math.random() * 5) + 1;
-var score_2 = Math.floor(Math.random() * 5) + 1;
+var score_1 = Math.floor(Math.random() * 6) + 1;
+var score_2 = Math.floor(Math.random() * 6) + 1;
 
 if (score_1 > score_2) {
   document.getElementById("header").innerHTML = "Player 1 Wins";
